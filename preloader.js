@@ -24,7 +24,7 @@ svgImage.style.cssText = `
     position: absolute;
     top: 50%;
     left: 50%;
-    // transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 `;
 svgImage.style.display = 'none';
 
@@ -42,7 +42,7 @@ function hideOverlay() {
 document.addEventListener('DOMContentLoaded', () => {
     // Replace the following lines with the actual code that loads your external JS files
     // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
-    hideOverlay(); // Replace with your actual loading code.
+    hideOverlay();
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,

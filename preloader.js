@@ -18,8 +18,8 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://phatho258.github.io/preloaderJs/product-launch.svg';
 svgImage.style.cssText = `
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     display: none;
     position: absolute;
     top: 50%;
@@ -29,7 +29,7 @@ svgImage.style.cssText = `
 svgImage.style.display = 'none';
 
 // Append the elements to the body
-// document.body.appendChild(overlay);
+document.body.appendChild(overlay);
 document.body.appendChild(svgImage);
 
 // Function to hide the overlay and display the SVG
@@ -42,7 +42,7 @@ function hideOverlay() {
 document.addEventListener('DOMContentLoaded', () => {
     // Replace the following lines with the actual code that loads your external JS files
     // For demonstration purposes, we'll use a setTimeout to simulate loading external JS files.
-    setTimeout(hideOverlay, 100); // Replace with your actual loading code.
+    hideOverlay(); // Replace with your actual loading code.
 });
 
 // Fallback: If all external resources are loaded and the DOMContentLoaded event doesn't fire,

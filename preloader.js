@@ -18,8 +18,8 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://phatho258.github.io/preloaderJs/product-launch.svg';
 svgImage.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
+    width: 200px;
+    height: 200px;
     display: none;
     position: absolute;
     top: 50%;

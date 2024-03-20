@@ -8,8 +8,8 @@ overlay.style.cssText = `
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.7);
     z-index: 999;
 `;
@@ -18,8 +18,8 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://phatho258.github.io/preloaderJs/product-launch.svg';
 svgImage.style.cssText = `
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
     display: none;
     position: absolute;
     top: 50%;

@@ -18,8 +18,8 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://phatho258.github.io/preloaderJs/product-launch.svg';
 svgImage.style.cssText = `
-    max-width: 100%;
-    max-height: 100%;
+    width: 200px;
+    height: 200px;
     display: none;
     position: absolute;
     top: 50%;
@@ -29,7 +29,7 @@ svgImage.style.cssText = `
 svgImage.style.display = 'none';
 
 // Append the elements to the body
-document.body.appendChild(overlay);
+// document.body.appendChild(overlay);
 document.body.appendChild(svgImage);
 
 // Function to hide the overlay and display the SVG

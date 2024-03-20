@@ -18,13 +18,13 @@ const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
 svgImage.src = 'https://phatho258.github.io/preloaderJs/product-launch.svg';
 svgImage.style.cssText = `
-    width: 400px;
-    height: 400px;
+    max-width: 200px;
+    max-height: 200px;
     display: none;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    // transform: translate(-50%, -50%);
 `;
 svgImage.style.display = 'none';
 

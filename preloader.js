@@ -38,7 +38,7 @@ function hideOverlay() {
         renderer: 'svg', // ou 'canvas' se preferir
         loop: true,
         autoplay: true,
-        path: 'https://phatho.github.io/preloaderJs/preload-lottie.json',
+        path: 'https://phatho258.github.io/preloaderJs/preload-lottie.json',
     });
 }
 

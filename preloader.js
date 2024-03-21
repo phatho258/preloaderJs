@@ -16,8 +16,8 @@ overlay.style.cssText = `
 const lottieContainer = document.createElement('div');
 lottieContainer.id = 'lottieContainer';
 lottieContainer.style.cssText = `
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
     display: none;
     position: absolute;
     top: 50%;
@@ -32,10 +32,9 @@ document.body.appendChild(lottieContainer);
 function hideOverlay() {
     overlay.style.display = 'none';
     lottieContainer.style.display = 'block';
-    // Substitua pela URL direta do seu arquivo JSON do Lottie.
     lottie.loadAnimation({
         container: lottieContainer,
-        renderer: 'svg', // ou 'canvas' se preferir
+        renderer: 'canvas', // or 'svg'
         loop: true,
         autoplay: true,
         path: 'https://phatho258.github.io/preloaderJs/preload-lottie.json',
@@ -43,7 +42,7 @@ function hideOverlay() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    hideOverlay(); // Teste sem o setTimeout
+    hideOverlay();
 });
 
-window.addEventListener('load', hideOverlay);
+window.addEventListener('load');

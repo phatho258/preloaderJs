@@ -45,4 +45,4 @@ document.addEventListener('DOMContentLoaded', () => {
     hideOverlay();
 });
 
-window.addEventListener('load');
+// window.addEventListener('load');

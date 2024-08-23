@@ -42,6 +42,7 @@ function hideOverlay() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    document.body.style.backgroundColor = 'black';
     hideOverlay();
 });
 
